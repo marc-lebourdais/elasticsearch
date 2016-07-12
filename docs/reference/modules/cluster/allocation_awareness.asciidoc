@@ -25,7 +25,7 @@ attribute called `rack_id` -- we could use any attribute name.  For example:
 ----------------------
 <1> This setting could also be specified in the `elasticsearch.yml` config file.
 
-Now, we need to setup _shard allocation awareness_  by telling Elasticsearch
+Now, we need to set up _shard allocation awareness_  by telling Elasticsearch
 which attributes to use.  This can be configured in the `elasticsearch.yml`
 file on *all* master-eligible nodes, or it can be set (and changed) with the
 <<cluster-update-settings,cluster-update-settings>> API.
